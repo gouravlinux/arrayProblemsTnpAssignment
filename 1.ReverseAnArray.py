@@ -1,8 +1,10 @@
 class Solution:
+    @staticmethod
     def swap(ls, i, j):
         temp = ls[i]
         ls[i] = ls[j]
         ls[j] = temp
+        # or just use ls[i],ls[j] = ls[j],ls[i]
 
     def reverseArray(self, ls):
         n = len(ls)
@@ -19,6 +21,6 @@ class Solution:
 if __name__ == "__main__":
     obj = Solution()
     ls = [5, 2, 6, 8, 9]
-    print(f"List before sorting: {ls}")
+    print(f"List before reversing: {ls}")
     obj.reverseArray(ls)
-    print(f"List after sorting: {ls}")
+    print(f"List after reversing: {ls}")
