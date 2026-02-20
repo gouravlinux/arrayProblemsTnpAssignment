@@ -1,3 +1,0 @@
-Name: Gourav Soni
-Enrollment No: 0157CY231043
-Batch-17: Advanced Python+DSA
